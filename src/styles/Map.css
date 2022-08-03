@@ -1,0 +1,30 @@
+.map-container {
+  display: flex;
+  height: 100vh;
+}
+
+.map-container-2 {
+  width: 100%;
+  height: 100vh;
+}
+
+.combobox-input {
+  width: 90%;
+  border: 1px solid lightgray;
+  background-color: white;
+}
+
+
+.combobox-option:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.info-window-pic {
+  height: 200px;
+  width: 200px;
+}
+
+.info-window-name {
+  font-weight: 600;
+}

@@ -1,0 +1,45 @@
+.progressBar2{
+    padding: 0px 20px 0px 20px;
+}
+
+.h3_headers3{
+    padding: 20px 10px 10px 0px;
+}
+
+.manage{
+    padding: 10px 10px 10px 34px;
+}
+.form-headingPage3 {
+  text-align: left;
+  padding: 30px 0px 0px 25px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.checkbox_label{
+    padding: 10px 30px 10px 10px;
+    
+}
+.checkbox_withLabel{
+    background-color: whitesmoke
+}
+
+.allrow{
+    margin-top: 10px;
+}
+
+.allrow1{
+    margin-top: 17px;
+}
+
+.choose{
+    padding: 10px 10px 10px 10px;
+}
+
+.whole_row{
+    margin-left: 10px;
+}
+
+.cols{
+    margin-right: 20px;
+}

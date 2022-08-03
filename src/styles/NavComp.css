@@ -1,0 +1,19 @@
+.bg-navColor {
+  background-color: white;
+}
+
+.nav-logo {
+  font-size: larger;
+  font-weight: 800;
+  color: #0b2f8a;
+}
+
+.nav-item {
+  font-size: medium;
+  color: #0b2f8a;
+}
+
+.logo-img {
+  width: 100%;
+  max-width: 30px;
+}

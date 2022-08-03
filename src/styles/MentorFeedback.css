@@ -1,0 +1,13 @@
+svg.star-svg {
+  display: inline;
+}
+.feedback-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.feedback-text-area {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}

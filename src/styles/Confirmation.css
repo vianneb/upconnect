@@ -1,0 +1,43 @@
+.confirmation-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.confirmation-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.confirmation-border {
+  border-bottom: 1px solid lightgray;
+}
+
+.dot {
+  background-color: #0099ff;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.confirmed {
+  font-weight: 600;
+}
+
+.confirmation-icon {
+  color: #949395;
+}
+
+.fa-calendar {
+  margin-right: 16px;
+  margin-left: 2px;
+}
+.fa-earth-americas {
+  margin-right: 14px;
+}
+.fa-location-dot {
+  margin-right: 17px;
+  margin-left: 2px;
+}

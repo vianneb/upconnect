@@ -1,0 +1,15 @@
+.menteeProfile {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+}
+
+.topicHeader {
+  font-size: large;
+  color: gray;
+}
+.timePeriod {
+  color: gray;
+}
+
+

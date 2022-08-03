@@ -1,0 +1,54 @@
+
+.profile-header {
+  /* text-align: center; */
+  font-size: 40px;
+  color: #0b2f8a;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.progressBar {
+  padding: 0px 20px 0px 20px;
+}
+
+.progressPercentage {
+  text-align: center;
+}
+
+.whole_form {
+  align-items: center;
+  /* width: 500px; */
+  padding: 0px 80px 30px 80px;
+}
+
+.row {
+  max-width: 100%;
+}
+
+.col .h3_headers {
+  text-align: left;
+  padding: 20px 0px 10px 0px;
+  margin: 5px;
+}
+
+.form-heading {
+  text-align: left;
+  padding: 30px 0px 0px 0px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.next-button {
+  background-color: #0b2f8a;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 50px;
+  transform: translateX(-50%);
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
