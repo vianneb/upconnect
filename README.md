@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Upconnect
+Created by: Brandon Adiele, Vianne Buinguyen, Nataisia Hambidge, Ryan Handoyo, and Leena Kapadiya
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Problem Statement
+How might we help college students access personalized career advice through building and maintaing relationships with industry professionals?
 
-In the project directory, you can run:
 
-### `npm start`
+## Summary
+It is difficult for college students to find valuable career guidance. In surveys with college students, over 50% of respondents said they use social media (e.g., YouTube and TikTok) as their primary source for career advice. However, the advice presented on these platforms is not personalized to the user and may not be applicable and helpful to them. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+We interviewed college students to understand their previous experiences finding mentors. Our interviewees reported having limited avenues of connecting with industry professionals: through a school mentorship program, an internship, or LinkedIn. All interviewees said they felt nervous when reaching out to an industry professional for the first time and uncertain about how to maintain a relationship with an industry professional.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Our solution to these pain points is UpConnect, a dedicated platform for college students to meet industry professionals in their career fields. Upconnect allows students to search for and schedule meetings with mentors who can answer their questions and offer personalized career guidance. UpConnect also contains articles that give students advice on how to communicate and maintain a relationship with their mentor. 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## User Flow: College Student
+### User: Vianne, student at University of Washington who is brand new to UpConnect
 
-### `npm run build`
+Vianne begins on the home page where she can read the steps for how to use UpConnect.
+![home page](/screens/home.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+She can view testimonials from mentees and mentors that have used the platform.
+![home page](/screens/home_2.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+She creates an account by clicking "Sign Up" on the navigation bar or the "Join Us" button on the home page.
+![sign up](/screens/signup.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+She is prompted to choose whether she is a college student or industry professional.
+![choose profile](/screens/choose_profile.png)
 
-### `npm run eject`
+She completes forms for her profile. The forms ask for personal information (e.g., bio and contact information), education, hobbies & extracurriculars, goals for becoming a mentee, and meeting availability.
+![completing profile](/screens/complete_prof1.png)
+![completing profile](/screens/complete_prof2.png)
+![completing profile](/screens/complete_prof3.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+She views her completed profile. She can always view/edit her profile by clicking "Profile" on the navigation bar.
+![mentee profile](/screens/mentee_profile.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+She visits the search page by clicking "Search" on the navigation bar. She can search by mentor name, company,job title,career topics, or location and view the list of filtered mentors below.
+![search](/screens/search.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+She decides to find mentors near her by clicking "Map" on the navigation bar. She types her hometown in the search bar and sees that Nataisia, a mentor is located within her radius.
+![map](/screens/map.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+She views Nataisia's profile and decides to schedule an appointment with her by clicking the "Schedule Appointment" button. 
+![mentor profile](/screens/mentor_profile.png)
+![schedule appointment](/screens/schedule.png)
 
-## Learn More
+She schedules a 30 minute meeting using a Calendly integration. 
+![schedule appointment](/screens/schedule_2.png)
+![schedule appointment](/screens/schedule_3.png)
+![schedule appointment](/screens/schedule_4.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+She views her appointment confirmation.
+![schedule confirmation](/screens/confirmation.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+She prepares for her meeting with Nataisia by clicking "Resources" on the navigation bar to view articles. To avoid an awkward first meeting, she checks out the article titled, "Icebreakers: Questions to ask Your Mentor".
+![schedule confirmation](/screens/confirmation.png)
+![article](/screens/article.png)
 
-### Code Splitting
+After her meeting, she fills out feedback that is sent to Nataisia.
+![feedback](/screens/feedback_form.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## User Flow: Industry Professional
+### User: Nataisia, a product manager at Microsoft who is an existing mentor on UpConnect
 
-### Analyzing the Bundle Size
+Since Nataisia is an existing mentor, she logs into her account by clicking "Sign In" on the navigation bar.
+![sign in](/screens/signin.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+She reviews her previous and upcoming appointments with students by clicking "Appointments" on the navigation bar. 
+![appointments](/screens/appointments.png)
+![appointments](/screens/appointments2.png)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+After meeting with Vianne, she views her feedback by clicking "Feedback" on the navigation bar.
+![sign in](/screens/feedback.png)
